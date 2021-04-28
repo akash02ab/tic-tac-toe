@@ -46,7 +46,7 @@ function Board(props) {
                     rigdiag += squares[i * 3 + j];
                 }
 
-                if(i + j === 3) {
+                if(i + j === 2) {
                     leftdiag += squares[i * 3 + j];
                 }
             }
