@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Board from './components/Board';
+import Game from './components/Game';
 import './style.css';
 
 ReactDOM.render(
   <div className="container">
-    <Board />
+    <Game />
   </div>,
   document.getElementById('root')
 );

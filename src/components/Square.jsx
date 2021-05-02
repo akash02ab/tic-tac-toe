@@ -1,7 +1,5 @@
-function Square(props) {
+export default function Square({index, value, clickHandler}) {
     return (
-        <button className="square" onClick={() => props.clickHandler(props.index)}>{props.value}</button>
+        <button className="square" onClick={() => clickHandler(index)}>{value}</button>
     );
 }
-
-export default Square;

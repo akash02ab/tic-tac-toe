@@ -9,6 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.5em;
+}
+
+.play-area {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .board-container {
@@ -18,14 +25,45 @@
     gap: 1em;
 }
 
-.square {
-    width: 4rem;
-    height: 4rem;
-    background: white;
+h1 {
+    color: coral;
 }
 
 .board {
-    width: 12rem;
+    width: 13rem;
     display: flex;
     flex-flow: row wrap;
+    border: 0.5rem solid darkblue;
+    border-radius: 0.5rem;
+}
+
+.square {
+    width: 4rem;
+    height: 4rem;
+    background: lightblue;
+    border: 0.1rem solid darkblue;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.timeline {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.timeline > button {
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background: lightcoral;
+    color: white;
+    box-shadow: 1px 1px 8px 1px coral;
 }
