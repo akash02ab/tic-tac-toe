@@ -5,17 +5,19 @@
 }
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size: 1.5em;
+    padding: 4rem;
 }
 
 .play-area {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
+    height: 100%;
 }
 
 .board-container {
